@@ -17,6 +17,8 @@
 
     <script src="https://kit.fontawesome.com/c94de6905f.js" crossorigin="anonymous"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+
     <link rel="stylesheet" href="style/estilo.css">
 
     <title>Heróis do Amanhã | Home</title>
@@ -57,7 +59,9 @@
             <div class="linha">
                 <h2>Fallen</h2>
             </div>
-            <div class="linha  sem-margem-top">
+        </div>
+        <div class="container corpo-texturizado-1">
+            <div class="linha  sem-margem-top ">
                 <div class="mapa">
                     <a href="#ferelden" class="superior-esquerdo continente"><img
                             src="images/ferellden-superior-esquerdo.png" title="Ferelden"></a>
@@ -74,8 +78,12 @@
                             src="images/ferellden-inferior-direito.png" title="Anglesea"></a>
                 </div>
             </div>
+            <!-- Ferelden -->
+            <br id="ferelden">
+            <br>
         </div>
-        <br id="ferelden">
+
+
         <div class="container">
             <div class="linha sem-margem-top">
                 <div class="detalhes-mapa">
@@ -83,7 +91,8 @@
                         <h2>Ferelden</h2>
                     </div>
                     <div class="nome-mapa-item texto-1">
-                        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur delectus
+                        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
                             rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
                             possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
                             consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
@@ -91,7 +100,8 @@
                             cupiditate provident.</p>
                     </div>
                     <div class="nome-mapa-item texto-2">
-                        <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur delectus
+                        <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
                             rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
                             possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
                             consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
@@ -99,7 +109,8 @@
                             cupiditate provident.</p>
                     </div>
                     <div class="nome-mapa-item texto-3">
-                        <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur delectus
+                        <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
                             rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
                             possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
                             consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
@@ -109,31 +120,847 @@
                     <div class="nome-mapa-subtitulo">
                         <h3>Classes comuns</h3>
                     </div>
-                    <div class="img-continente">
-                        <img src="images/frutas-congeladas.jpg"">
+
+                    <div class="local-titulo local-titulo-1">
+                        <h3>aaaaaa</h3>
                     </div>
-                    <div class="classes">
-                        <div class="classe">
-                            <img src="images/assassino.png" alt="">
-                            <h4>Assassino</h4>
+                    <div class="local-texto texto-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-2">
+                        <h3>bbbbbb</h3>
+                    </div>
+                    <div class="local-texto texto-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-3">
+                        <h3>cccccc</h3>
+                    </div>
+                    <div class="local-texto texto-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-4">
+                        <h3>racas comuns</h3>
+                    </div>
+
+                    <div class=" classes">
+                        <div class="carrousel-2-col">
+                            <div class="carrousel-2-col-itens" id="carrousel-2-col-itens-ferelden">
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Magos Amarelos</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/mago-vermelho.png" alt="">
+                                        <h4>Magos Vermelhos</h4>
+                                    </div>
+                                </div>
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Guerreiros</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/arcanista.png" alt="">
+                                        <h4>Arcanistas</h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="classe">
-                            <img src="images/assassino.png" alt="">
-                            <h4>Assassino</h4>
-                        </div>
-                        <div class="classe">
-                            <img src="images/assassino.png" alt="">
-                            <h4>Assassino</h4>
-                        </div>
-                        <div class="classe">
-                            <img src="images/assassino.png" alt="">
-                            <h4>Assassino</h4>
+                    </div>
+                    <div class=" racas">
+                        <div class="demo-racas">
+                            <div class="raca">
+                                <img src="images/mago-amarelo.png" alt="">
+                                <h4>Humanos</h4>
+                            </div>
+                            <div class="raca">
+                                <img src="images/mago-vermelho.png" alt="">
+                                <h4>Elfos</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+        <div class="container-medio">
+            <div class="detalhes-mapa-2">
+                <h2>História</h2>
+                <div class="linha">
+                    <div class="col-2">
+                        <h3>aaaaaaaa</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                    <div class="col-2">
+                        <h3>bbbbbbb</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Harrowfield -->
+        <br id="harrowfield">
+        <br>
+        <div class="container">
+            <div class="linha sem-margem-top">
+                <div class="detalhes-mapa">
+                    <div class="nome-mapa">
+                        <h2>Harrowfield</h2>
+                    </div>
+                    <div class="nome-mapa-item texto-1">
+                        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-2">
+                        <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-3">
+                        <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-subtitulo">
+                        <h3>Classes comuns</h3>
+                    </div>
+
+                    <div class="local-titulo local-titulo-1">
+                        <h3>aaaaaa</h3>
+                    </div>
+                    <div class="local-texto texto-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-2">
+                        <h3>bbbbbb</h3>
+                    </div>
+                    <div class="local-texto texto-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-3">
+                        <h3>cccccc</h3>
+                    </div>
+                    <div class="local-texto texto-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-4">
+                        <h3>racas comuns</h3>
+                    </div>
+
+                    <div class=" classes">
+                        <div class="carrousel-2-col">
+                            <div class="carrousel-2-col-itens" id="carrousel-2-col-itens-harrowfield">
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Magos Amarelos</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/mago-vermelho.png" alt="">
+                                        <h4>Magos Vermelhos</h4>
+                                    </div>
+                                </div>
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Guerreiros</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/arcanista.png" alt="">
+                                        <h4>Arcanistas</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" racas">
+                        <div class="demo-racas">
+                            <div class="raca">
+                                <img src="images/mago-amarelo.png" alt="">
+                                <h4>Humanos</h4>
+                            </div>
+                            <div class="raca">
+                                <img src="images/mago-vermelho.png" alt="">
+                                <h4>Elfos</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container-medio">
+            <div class="detalhes-mapa-2">
+                <h2>História</h2>
+                <div class="linha">
+                    <div class="col-2 historia-local">
+                        <h3>aaaaaaaa</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                    <div class="col-2 historia-local">
+                        <h3>bbbbbbb</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Oceania -->
+        <br id="oceania">
+        <br>
+        <div class="container">
+            <div class="linha sem-margem-top">
+                <div class="detalhes-mapa">
+                    <div class="nome-mapa">
+                        <h2>Oceania</h2>
+                    </div>
+                    <div class="nome-mapa-item texto-1">
+                        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-2">
+                        <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-3">
+                        <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-subtitulo">
+                        <h3>Classes comuns</h3>
+                    </div>
+
+                    <div class="local-titulo local-titulo-1">
+                        <h3>aaaaaa</h3>
+                    </div>
+                    <div class="local-texto texto-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-2">
+                        <h3>bbbbbb</h3>
+                    </div>
+                    <div class="local-texto texto-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-3">
+                        <h3>cccccc</h3>
+                    </div>
+                    <div class="local-texto texto-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-4">
+                        <h3>racas comuns</h3>
+                    </div>
+
+                    <div class=" classes">
+                        <div class="carrousel-2-col">
+                            <div class="carrousel-2-col-itens" id="carrousel-2-col-itens-oceania">
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Magos Amarelos</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/mago-vermelho.png" alt="">
+                                        <h4>Magos Vermelhos</h4>
+                                    </div>
+                                </div>
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Guerreiros</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/arcanista.png" alt="">
+                                        <h4>Arcanistas</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" racas">
+                        <div class="demo-racas">
+                            <div class="raca">
+                                <img src="images/mago-amarelo.png" alt="">
+                                <h4>Humanos</h4>
+                            </div>
+                            <div class="raca">
+                                <img src="images/mago-vermelho.png" alt="">
+                                <h4>Elfos</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container-medio">
+            <div class="detalhes-mapa-2">
+                <h2>História</h2>
+                <div class="linha">
+                    <div class="col-2 historia-local">
+                        <h3>aaaaaaaa</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                    <div class="col-2 historia-local">
+                        <h3>bbbbbbb</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle -->
+        <br id="middle">
+        <br>
+        <div class="container">
+            <div class="linha sem-margem-top">
+                <div class="detalhes-mapa">
+                    <div class="nome-mapa">
+                        <h2>Middle</h2>
+                    </div>
+                    <div class="nome-mapa-item texto-1">
+                        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-2">
+                        <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-3">
+                        <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-subtitulo">
+                        <h3>Classes comuns</h3>
+                    </div>
+
+                    <div class="local-titulo local-titulo-1">
+                        <h3>aaaaaa</h3>
+                    </div>
+                    <div class="local-texto texto-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-2">
+                        <h3>bbbbbb</h3>
+                    </div>
+                    <div class="local-texto texto-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-3">
+                        <h3>cccccc</h3>
+                    </div>
+                    <div class="local-texto texto-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-4">
+                        <h3>racas comuns</h3>
+                    </div>
+
+                    <div class=" classes">
+                        <div class="carrousel-2-col">
+                            <div class="carrousel-2-col-itens" id="carrousel-2-col-itens-middle">
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Magos Amarelos</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/mago-vermelho.png" alt="">
+                                        <h4>Magos Vermelhos</h4>
+                                    </div>
+                                </div>
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Guerreiros</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/arcanista.png" alt="">
+                                        <h4>Arcanistas</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" racas">
+                        <div class="demo-racas">
+                            <div class="raca">
+                                <img src="images/mago-amarelo.png" alt="">
+                                <h4>Humanos</h4>
+                            </div>
+                            <div class="raca">
+                                <img src="images/mago-vermelho.png" alt="">
+                                <h4>Elfos</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-medio">
+            <div class="detalhes-mapa-2">
+                <h2>História</h2>
+                <div class="linha">
+                    <div class="col-2 historia-local">
+                        <h3>aaaaaaaa</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                    <div class="col-2 historia-local">
+                        <h3>bbbbbbb</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Anglesea -->
+        <br id="anglesea">
+        <br>
+        <div class="container">
+            <div class="linha sem-margem-top">
+                <div class="detalhes-mapa">
+                    <div class="nome-mapa">
+                        <h2>Anglesea</h2>
+                    </div>
+                    <div class="nome-mapa-item texto-1">
+                        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-2">
+                        <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-item texto-3">
+                        <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla impedit consequatur
+                            delectus
+                            rerum cum repellat quae blanditiis reiciendis placeat consectetur officia, voluptatum esse
+                            possimus corporis et nostrum eveniet totam exercitationem? Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Quae perferendis velit omnis facere nihil eos ipsum commodi
+                            id accusantium tempore nam voluptas assumenda exercitationem quibusdam quo voluptates, amet,
+                            cupiditate provident.</p>
+                    </div>
+                    <div class="nome-mapa-subtitulo">
+                        <h3>Classes comuns</h3>
+                    </div>
+
+                    <div class="local-titulo local-titulo-1">
+                        <h3>aaaaaa</h3>
+                    </div>
+                    <div class="local-texto texto-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-2">
+                        <h3>bbbbbb</h3>
+                    </div>
+                    <div class="local-texto texto-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-3">
+                        <h3>cccccc</h3>
+                    </div>
+                    <div class="local-texto texto-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea quibusdam accusamus natus
+                            aut beatae doloribus, ducimus rerum iusto nostrum? Laudantium error veritatis id sit
+                            voluptates repudiandae et commodi minima. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Soluta ea quibusdam accusamus natus aut beatae doloribus, ducimus rerum
+                            iusto nostrum? Laudantium error veritatis id sit voluptates repudiandae et commodi minima.
+                        </p>
+                    </div>
+                    <div class="local-titulo local-titulo-4">
+                        <h3>racas comuns</h3>
+                    </div>
+
+                    <div class=" classes">
+                        <div class="carrousel-2-col">
+                            <div class="carrousel-2-col-itens" id="carrousel-2-col-itens-angle">
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Magos Amarelos</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/mago-vermelho.png" alt="">
+                                        <h4>Magos Vermelhos</h4>
+                                    </div>
+                                </div>
+                                <div class="linha-2-classes">
+                                    <div class="classe">
+                                        <img src="images/mago-amarelo.png" alt="">
+                                        <h4>Guerreiros</h4>
+                                    </div>
+                                    <div class="classe">
+                                        <img src="images/arcanista.png" alt="">
+                                        <h4>Arcanistas</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" racas">
+                        <div class="demo-racas">
+                            <div class="raca">
+                                <img src="images/mago-amarelo.png" alt="">
+                                <h4>Humanos</h4>
+                            </div>
+                            <div class="raca">
+                                <img src="images/mago-vermelho.png" alt="">
+                                <h4>Elfos</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-medio">
+            <div class="detalhes-mapa-2">
+                <h2>História</h2>
+                <div class="linha">
+                    <div class="col-2 historia-local">
+                        <h3>aaaaaaaa</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                    <div class="col-2 historia-local">
+                        <h3>bbbbbbb</h3>
+                        <br>
+                        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas porro nam, dicta
+                                eveniet doloremque dolores quo optio odio ad, itaque sit. Aliquid odio similique
+                                laboriosam voluptatibus voluptate delectus provident.</span><span>Eveniet ex rem
+                                aliquid, soluta quae magnam necessitatibus vitae blanditiis magni commodi itaque
+                                repellendus! Repellendus maxime saepe libero alias at. Ea dignissimos voluptas
+                                cupiditate illum et temporibus eaque laborum optio?</span><span>Amet aliquam corporis a
+                                magnam quo vitae quasi voluptatem at, fuga excepturi itaque, nulla quidem dolor quam
+                                mollitia ea modi! Ratione, dolor! In quam repellat illum alias ea minima
+                                molestias?</span><span>Nisi suscipit officiis inventore pariatur explicabo soluta
+                                asperiores deserunt sapiente earum laborum repudiandae ipsam temporibus, rerum, omnis
+                                maiores unde sint non officia, similique adipisci itaque odit? Doloremque consequuntur
+                                alias nam.</span><span>Voluptates labore recusandae magni. Nobis culpa blanditiis, ea
+                                minima voluptas accusantium libero cum corrupti autem dolor dolorum itaque atque animi
+                                ipsa necessitatibus deserunt corporis architecto amet! Deleniti assumenda repellendus
+                                inventore.</span><span>Accusantium expedita architecto, beatae fuga ut nisi. Autem
+                                mollitia perspiciatis reiciendis tempore veritatis molestias expedita inventore, id
+                                placeat dignissimos deleniti fugiat dolorum voluptate aspernatur laborum non facere. Ut,
+                                est iusto?</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="rodape">
+                <div class="linha">
+                    <div class="col-3">
+                        <h3><a href="">contato</a></h3>
+                    </div>
+                    <div class="col-3">
+                        <h3><a href="">mais projetos</a></h3>
+                    </div>
+                </div>
+                <div class="linha">
+                    <h2><a href="">HdA</a></h2>
+                </div>
+                <div class="linha">
+                    <ul>
+                        <li><a href=""><i class="fab fa-github-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+    <script src="js/universo-carrousel.js"></script>
 </body>
 
 </html>
